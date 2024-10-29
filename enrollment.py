@@ -21,7 +21,7 @@ def get_active_students(data):
     name for name, info in data["studenter"] if info["aktiv"] 
 )
 
-# Creates a set of unique subject students are studying
+# Creates a set of unique subjects currently active students are studying
 def get_unique_subjects(data):
     return {
         subject
